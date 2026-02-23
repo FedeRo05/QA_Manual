@@ -20,11 +20,11 @@ Se ejecutaron pruebas exploratorias y casos de prueba funcionales enfocados en:
 ### 1. Error de Validación en Dirección de Envío
 * **Descripción:** El sistema bloquea el paso al pago mostrando un error de "Corrija los errores de dirección" a pesar de que la dirección seleccionada es válida y está guardada.
 * **Impacto:** **Bloqueante.** Impide que el usuario finalice su compra.
-* **Evidencia:** ![Error Dirección](./evidence/Captura_Error_direccion_NewEra.png)
+* **Evidencia:** ![Error Dirección](Captura_Error_direccion_NewEra.png)
 
 ### 2. Traslape de Elementos en Login (UI Bug)
 * **Descripción:** El icono de "Ver contraseña" se superpone al enlace "¿Olvidó su contraseña?", afectando la usabilidad.
-* **Evidencia:** ![Error Login](./evidence/Video_Error_Login_NewEra.gif)
+* **Evidencia:** ![Error Login](Video_Error_Login_NewEra.gif)
 
 ---
 
