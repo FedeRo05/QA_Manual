@@ -7,7 +7,7 @@ Auditoría de calidad enfocada en la experiencia de usuario (UX) y la funcionali
 ### 1. Menús de Promociones Vacíos (Andatti / Spin Premia)
 * **Descripción:** Al seleccionar los filtros de "Andatti" o "Spin Premia" en la sección de promociones, el sistema no carga productos y muestra un mensaje de "Sin Resultados".
 * **Impacto:** **Medio.** El usuario percibe falta de contenido o fallos en el inventario.
-* **Evidencia:** ![Error Andatti](Captura_Error_SinResultadosAndatti_Oxxo.jpg) | ![Error Spin](Captura_Error_SinResultadosSpinPremia_Oxxo.jpg)
+* **Evidencia:** ![Error Andatti](Captura_Error_SinResultadosAndatti_Oxxo.png) | ![Error Spin](Captura_Error_SinResultadosSpinPremia_Oxxo.png)
 
 ### 2. Bucle de Redirección en "Descarga la App"
 * **Descripción:** Al intentar descargar la aplicación desde una PC, el sistema redirige a una página informativa de la tarjeta Spin en lugar de enviar al usuario a la Store o mostrar un código QR de descarga. Al reintentar, se genera un ciclo de navegación sin éxito.
