@@ -1,46 +1,35 @@
-# QA_Manual
-Pruebas Quality Assurance manuales
-#  QA Portfolio: Pruebas Exploratorias - New Era (México)
 
-Este proyecto consiste en una auditoría de calidad (QA Manual) realizada al sitio web de New Era México. El objetivo fue identificar fallos críticos en el flujo de compra y errores de interfaz de usuario (UI) que afectan la experiencia del cliente.
 
-##  Herramientas Utilizadas
-* **Navegador:** Google Chrome (DevTools para inspeccionar elementos).
-* **Documentación:** Markdown para reportes técnicos.
-* **Evidencia:** ScreenToGif para la captura de errores en tiempo real.
+#  Manual QA Portfolio - Federico
 
-## 📋 Resumen de Actividades
-Se ejecutaron pruebas exploratorias y casos de prueba funcionales enfocados en:
-1. **Flujo de Checkout:** Validación de direcciones y métodos de envío.
-2. **Gestión de Cuentas:** Proceso de Login y recuperación de contraseña.
-3. **Buscador y Filtros:** Relevancia de resultados y ordenamiento.
+¡Bienvenido a mi portafolio de Testing Manual! En este repositorio documento mi proceso de aprendizaje y ejecución de pruebas de software. Mi enfoque actual es dominar las bases de QA Manual (pruebas exploratorias, reporteo de bugs y diseño de casos de prueba) para próximamente transicionar a **QA Automation**.
 
 ---
 
-##  Bugs Críticos Encontrados
+##  Proyectos de Pruebas
 
-### 1. Error de Validación en Dirección de Envío
-* **Descripción:** El sistema bloquea el paso al pago mostrando un error de "Corrija los errores de dirección" a pesar de que la dirección seleccionada es válida y está guardada.
-* **Impacto:** **Bloqueante.** Impide que el usuario finalice su compra.
-* **Evidencia:** ![Error Dirección](Captura_Error_direccion_NewEra.png)
+Aquí puedes explorar las auditorías de calidad realizadas en diferentes plataformas:
 
-### 2. Traslape de Elementos en Login (UI Bug)
-* **Descripción:** El icono de "Ver contraseña" se superpone al enlace "¿Olvidó su contraseña?", afectando la usabilidad.
-* **Evidencia:** ![Error Login](Video_Error_Login_NewEra.gif)
+### 1. [New Era México](./01_NewEra_Mexico/)
+* **Tipo de prueba:** Exploratoria y Funcional.
+* **Hallazgos clave:** Bugs críticos en el flujo de Checkout (Validación de dirección) y traslape de elementos en la UI de Login.
+* **Estado:** Finalizado 
 
----
+### 2. [Ventanilla Virtual (Educación)](./02_Ventanilla_Virtual/)
+* **Tipo de prueba:** Pruebas negativas y de carga de archivos.
+* **Hallazgos clave:** Manejo de sesiones expiradas y validación de formatos de archivos pesados.
+* **Estado:** Finalizado
 
-## ✅ Ejecución de Casos de Prueba (Test Cases)
-
-| ID | Caso de Prueba | Resultado | Observaciones |
-| :--- | :--- | :--- | :--- |
-| TC-001 | Aplicar cupón inválido | **PASSED**  | El sistema rechaza códigos falsos correctamente. |
-| TC-002 | Filtro Precio: Menor a Mayor | **PASSED**  | Los productos se ordenan de forma ascendente. |
-| TC-003 | Búsqueda sin sentido | **FAILED**  | El buscador devuelve basura en lugar de un mensaje de "No resultados". |
-
+### 3. [Oxxo Web](./03_Oxxo_Web/)
+* **Tipo de prueba:** UX/UI y Regresión en filtros.
+* **Hallazgos clave:** Verificación de algoritmos de búsqueda y geolocalización de tiendas.
+* **Estado:** Finalizado
 
 ---
 
-##  Aprendizajes 
-* Identificación de **falsos positivos** en algoritmos de búsqueda.
-* Diferenciación entre errores de **lógica de negocio** (validación de dirección) y errores de **diseño** (traslape de UI).
+## 🛠️ Skills Técnicos
+* **Gestión de Pruebas:** Diseño de casos de prueba (Test Cases) y Reporte de Bugs.
+* **Herramientas:** GitHub, Chrome DevTools, Markdown.
+* **Metodologías:** Pruebas de Caja Negra, Pruebas Negativas y Exploratorias.
+
+
