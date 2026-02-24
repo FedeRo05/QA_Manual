@@ -22,7 +22,7 @@ Aquí puedes explorar las auditorías de calidad realizadas en diferentes plataf
 
 ### 3. [Oxxo Web](./03_Oxxo_Web/)
 * **Tipo de prueba:** UX/UI y Regresión en filtros.
-* **Hallazgos clave:** Verificación de algoritmos de búsqueda y geolocalización de tiendas.
+* **Hallazgos clave:** Fallos de redireccion en plataformas como PC y Menus innesesarios que no cuentan con ninguna informacion
 * **Estado:** Finalizado
 
 ---
