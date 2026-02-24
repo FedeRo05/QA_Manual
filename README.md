@@ -10,17 +10,17 @@
 
 Aquí puedes explorar las auditorías de calidad realizadas en diferentes plataformas:
 
-### 1. [New Era México](./01_NewEra_Mexico/)
+### 1. New Era México
 * **Tipo de prueba:** Exploratoria y Funcional.
 * **Hallazgos clave:** Bugs críticos en el flujo de Checkout (Validación de dirección) y traslape de elementos en la UI de Login.
 * **Estado:** Finalizado 
 
-### 2. [Ventanilla Virtual (Educación)](./02_Ventanilla_Virtual/)
+### 2. Ventanilla Virtual 
 * **Tipo de prueba:** Pruebas negativas y de carga de archivos.
 * **Hallazgos clave:** Manejo de sesiones expiradas y validación de formatos de archivos pesados.
 * **Estado:** Finalizado
 
-### 3. [Oxxo Web](./03_Oxxo_Web/)
+### 3. Oxxo Web
 * **Tipo de prueba:** UX/UI y Regresión en filtros.
 * **Hallazgos clave:** Fallos de redireccion en plataformas como PC y Menus innesesarios que no cuentan con ninguna informacion
 * **Estado:** Finalizado
